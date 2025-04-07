@@ -1,9 +1,28 @@
+<section class="about">
+  <img src="assets/profile.jpg" alt="Profile picture of Laura Pérez Cervera" class="profile-image">
+  
+  <h1 class="name">Laura Pérez Cervera</h1>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/yourlinkedinusername" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+    </a>
+    <a href="https://www.imdb.com/name/nmXXXXXXXX/" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/imdb.svg" alt="IMDb" />
+    </a>
+  </div>  
+
+  <p class="description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores ad repudiandae sequi possimus eaque minima? Earum mollitia provident atque animi exercitationem voluptas optio est, nobis assumenda beatae quis maxime?
+  </p>
+</section>
+
 <section class="projects">
-    <app-project-card
-      *ngFor="let project of projects"
-      [title]="project.title"
-      [type]="project.type"
-      [image]="project.image"
-      [link]="project.link">
-    </app-project-card>
-  </section>
+  <app-project-card
+    *ngFor="let project of projects"
+    [title]="project.title"
+    [type]="project.type"
+    [image]="project.image"
+    [link]="project.link">
+  </app-project-card>
+</section>
