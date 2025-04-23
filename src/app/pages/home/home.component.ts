@@ -10,16 +10,35 @@ export class HomeComponent {
   projects = [
     {
       title: 'BENDITA REBELDÍA',
-      type: 'Largometraje',
-      image: 'assets/BENDITA REBELDÍA.png',
+      type: 'Feature-film',
+      image: 'assets/BENDITAREBELDÍA.png',
       link: 'https://example.com/elearning'
     },
     {
       title: 'ENCANTO',
-      type: 'Largometraje',
-      image: 'assets/images/portfolio.jpg',
-      link: 'https://example.com/portfolio'
-    }
+      type: 'Feature-film',
+      image: 'assets/ENCANTO.png',
+      link: ''
+    },
+    {
+      title: 'CHARLIE',
+      type: 'Short',
+      image: 'assets/CHARLIE.png',
+      link: ''
+    },
+    {
+      title: 'THE FIRE ESCAPE',
+      type: 'Short',
+      image: 'assets/THEFIREESCAPE.png',
+      link: ''
+    },
+    {
+      title: 'CÓMO CON: BANCOLOMBIA',
+      type: 'Commercial work',
+      image: 'assets/CHARLIE.png',
+      link: ''
+    },
+
   ];
 
 }
