@@ -72,3 +72,12 @@
     text-underline-offset: 3px;     /* Optional: creates spacing from text */
     text-decoration-color: #F39C12;
   }
+
+  @media (max-width: 768px) {
+    .projects {
+      grid-template-columns: 1fr; /* stack cards in one column */
+      padding: 10px; /* reduce padding for small screens */
+      gap: 30px; /* reduce gap between cards */
+    }
+  
+  }
