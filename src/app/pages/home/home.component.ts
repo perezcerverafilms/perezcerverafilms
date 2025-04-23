@@ -11,7 +11,7 @@ export class HomeComponent {
     {
       title: 'BENDITA REBELDÍA',
       type: 'Largometraje',
-      image: '..assets/BENDITA REBELDÍA.png',
+      image: 'assets/BENDITA REBELDÍA.png',
       link: 'https://example.com/elearning'
     },
     {
