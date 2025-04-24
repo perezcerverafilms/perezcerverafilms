@@ -19,9 +19,8 @@
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 16px;
-  margin-bottom: 20px;
 }
 
 .social-links .icon-container {
@@ -55,15 +54,13 @@
 .description {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 40px;
-  padding: 0 20px;
 }
 
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    padding: 50px;
+    padding: 10px 50px;
   }
 
   .underlined {
