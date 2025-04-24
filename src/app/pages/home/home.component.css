@@ -59,7 +59,7 @@
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 30px;
     padding: 10px 50px;
   }
 
