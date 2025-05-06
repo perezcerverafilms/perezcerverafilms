@@ -18,7 +18,7 @@ export class HomeComponent {
       title: 'ENCANTO',
       type: 'Feature-film',
       image: 'assets/ENCANTO.png',
-      link: ''
+      link: 'encanto'
     },
     {
       title: 'CHARLIE',

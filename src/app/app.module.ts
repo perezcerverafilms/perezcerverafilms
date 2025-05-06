@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { NavComponent } from './nav/nav.component';
 import { BenditarebeldiaComponent } from './pages/benditarebeldia/benditarebeldia.component';
+import { EncantoComponent } from './pages/encanto/encanto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BenditarebeldiaComponent } from './pages/benditarebeldia/benditarebeldi
     HomeComponent,
     ProjectCardComponent,
     NavComponent,
-    BenditarebeldiaComponent
+    BenditarebeldiaComponent,
+    EncantoComponent
   ],
   imports: [
     BrowserModule,
