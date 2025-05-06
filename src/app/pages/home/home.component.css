@@ -70,6 +70,44 @@
     text-decoration-color: #F39C12;
   }
 
+  /* Crew Experience */
+
+  .crew-experience {
+    padding: 40px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .crew-experience h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+  .work h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+  
+  .crew-compact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .crew-compact-list li {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+
   @media (max-width: 768px) {
     .projects {
       grid-template-columns: 1fr; /* stack cards in one column */

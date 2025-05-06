@@ -4,23 +4,47 @@
   <h1 class="name">Laura Pérez Cervera</h1>
 
   <p class="description">
-    Laura Pérez Cervera is a <span class="underlined">screenwriter and filmmaker</span> who tells bold, heartfelt stories with soul and a little bit of sparkle. 
-    She’s the writer-director behind Bendita Rebeldía, a feature film praised for its strong female lead and emotional bite, and was part of the Creative Direction team behind Disney’s <span class="underlined">Oscar-winning Encanto</span>—yes, that magical family. 
-    <br><br>Whether it’s grounded drama, a dash of <span class="underlined">magical realism</span>, or something totally offbeat, Laura brings <span class="underlined">sharp storytelling</span>, big heart, and <span class="underlined">vibrant visuals</span> to everything she does.
-    Her work spans drama, comedy, and the fantastical, always grounded in deep empathy and a strong sense of place.
+    Laura Pérez Cervera is a <span class="underlined">screenwriter and filmmaker</span> who tells bold, heartfelt stories with soul and a little bit of sparkle.
+  </p>
+  <p class="description">
+    She’s the writer-director behind <em>Bendita Rebeldía</em>, a feature film praised for its strong female lead and emotional bite, and was part of the Creative Direction team behind Disney’s <span class="underlined">Oscar-winning <em>Encanto</em></span>—yes, that magical family.
+  </p>
+  <p class="description">
+    Whether it’s grounded drama, a dash of <span class="underlined">magical realism</span>, or something totally offbeat, Laura brings <span class="underlined">sharp storytelling</span>, big heart, and <span class="underlined">vibrant visuals</span> to everything she does. Her work spans drama, comedy, and the fantastical, always grounded in deep empathy and a strong sense of place.
   </p>
 
 </section>
 
-<section class="projects">
-  <app-project-card
-    *ngFor="let project of projects"
-    [title]="project.title"
-    [type]="project.type"
-    [image]="project.image"
-    [link]="project.link">
-  </app-project-card>
+<section class="work">
+
+  <h3>Director & Writer Projects</h3>
+
+  <!-- Projects Grid -->
+  <div class="projects">
+    <app-project-card
+      *ngFor="let project of projects"
+      [title]="project.title"
+      [type]="project.type"
+      [image]="project.image"
+      [link]="project.link">
+    </app-project-card>
+  </div>
+
+  <!-- Crew Roles List -->
+  <div class="crew-experience">
+    <h3>Collaborations & Crew Roles</h3>
+    <ul class="crew-compact-list">
+      <li><strong>La Perra Producciones</strong> – Writer</li>
+      <li><strong>Del Viento Films</strong> – Writer, First Assistant Director</li>
+      <li><strong>Dirty Kitchen Productions</strong> – Director, First AD, Casting</li>
+      <li><strong>Narcos (Season 2)</strong> – Production Assistant</li>
+      <li><strong>La Guapa Films</strong> – First Assistant Director</li>
+      <li><strong>Los Notarios Productions</strong> – Second Assistant Director</li>
+    </ul>
+  </div>
 </section>
+
+
 
 <!-- <div class="social-links">
   <a href="https://cimamujerescineastas.es/socia/perez-cervera-laura-alejandra/" target="_blank" rel="noopener">
