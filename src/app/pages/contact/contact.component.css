@@ -1,0 +1,47 @@
+.project-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.project-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.highlight-box {
+  background-color: #FFF6E0;
+  border-left: 4px solid #F39C12;
+  padding: 15px 20px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.section-title .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #F39C12;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.project-credits a {
+  color: #F39C12;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.project-credits a:hover {
+  text-decoration: underline;
+}

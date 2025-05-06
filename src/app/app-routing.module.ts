@@ -6,6 +6,7 @@ import { EncantoComponent } from './pages/encanto/encanto.component';
 import { CharlieComponent } from './pages/charlie/charlie.component';
 import { ThefireescapeComponent } from './pages/thefireescape/thefireescape.component';
 import { ComoconbancolombiaComponent } from './pages/comoconbancolombia/comoconbancolombia.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'charlie', component: CharlieComponent},
   { path: 'thefireescape', component: ThefireescapeComponent},
   { path: 'comoconbancolombia', component: ComoconbancolombiaComponent},
+  { path: 'contact', component: ContactComponent},
 ];
 
 @NgModule({

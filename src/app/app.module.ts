@@ -11,6 +11,7 @@ import { EncantoComponent } from './pages/encanto/encanto.component';
 import { CharlieComponent } from './pages/charlie/charlie.component';
 import { ThefireescapeComponent } from './pages/thefireescape/thefireescape.component';
 import { ComoconbancolombiaComponent } from './pages/comoconbancolombia/comoconbancolombia.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ComoconbancolombiaComponent } from './pages/comoconbancolombia/comoconb
     EncantoComponent,
     CharlieComponent,
     ThefireescapeComponent,
-    ComoconbancolombiaComponent
+    ComoconbancolombiaComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

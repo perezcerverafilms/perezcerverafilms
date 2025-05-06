@@ -1,8 +1,8 @@
-/* ABOUT SECTION */
+/* GENERAL LAYOUT */
 
 .about {
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px 20px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -12,11 +12,13 @@
   height: 300px;
   object-fit: cover;
   margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-bottom: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .description {
@@ -31,26 +33,46 @@
   text-decoration-color: #F39C12;
 }
 
+.about .description:last-of-type {
+  margin-bottom: 0;
+}
+
 /* WORK SECTION */
+
+.work {
+  padding: 30px 0 60px;
+}
+
+.work h3,
+.crew-experience h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #F39C12;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
 
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  padding: 10px 50px;
+  padding: 0 50px;
 }
 
 .crew-experience {
   padding: 40px 50px;
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.crew-experience h3,
-.work h3 {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 .crew-compact-list {
@@ -65,17 +87,23 @@
 .crew-compact-list li {
   margin-bottom: 12px;
   text-align: center;
+  font-weight: 400;
 }
 
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .projects {
-    grid-template-columns: 1fr; /* stack cards in one column */
-    padding: 10px; /* reduce padding for small screens */
-    gap: 30px; /* reduce gap between cards */
+    grid-template-columns: 1fr;
+    padding: 0 20px;
   }
 
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
 }
+
 
 /* SOCIAL LINKS */
 
