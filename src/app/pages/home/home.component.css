@@ -1,3 +1,5 @@
+/* ABOUT SECTION */
+
 .about {
   text-align: center;
   padding: 40px 20px;
@@ -17,7 +19,68 @@
   margin-bottom: 20px;
 }
 
-.social-links {
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: #F39C12;
+}
+
+/* WORK SECTION */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 10px 50px;
+}
+
+.crew-experience {
+  padding: 40px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.crew-experience h3,
+.work h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.crew-compact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.crew-compact-list li {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr; /* stack cards in one column */
+    padding: 10px; /* reduce padding for small screens */
+    gap: 30px; /* reduce gap between cards */
+  }
+
+}
+
+/* SOCIAL LINKS */
+
+/* .social-links {
   display: flex;
   justify-content: flex-end;
   gap: 16px;
@@ -32,7 +95,7 @@
   justify-content: center;
   border-radius: 6px;
   overflow: hidden;
-  box-sizing: border-box; /* Ensure padding is included in the container size */
+  box-sizing: border-box;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -42,77 +105,11 @@
   margin-top: 1px;
 }
 
-.cima-container {
-  padding: 5px; /* Add padding to CIMA container */
-}
-
 .social-links a:hover .icon-container {
   transform: scale(1.1);
   background-color: #F39C12;
 }
 
-.description {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding: 10px 50px;
-  }
-
-  .underlined {
-    text-decoration: underline;
-    text-decoration-thickness: 2px; /* Optional: makes the underline thicker */
-    text-underline-offset: 3px;     /* Optional: creates spacing from text */
-    text-decoration-color: #F39C12;
-  }
-
-  /* Crew Experience */
-
-  .crew-experience {
-    padding: 40px 50px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .crew-experience h3 {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
-  }
-
-  .work h3 {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
-  }
-
-  
-  .crew-compact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 600px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  .crew-compact-list li {
-    margin-bottom: 12px;
-    text-align: center;
-  }
-  
-
-  @media (max-width: 768px) {
-    .projects {
-      grid-template-columns: 1fr; /* stack cards in one column */
-      padding: 10px; /* reduce padding for small screens */
-      gap: 30px; /* reduce gap between cards */
-    }
-  
-  }
+.cima-container {
+  padding: 5px;
+} */

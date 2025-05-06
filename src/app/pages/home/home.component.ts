@@ -12,7 +12,7 @@ export class HomeComponent {
       title: 'BENDITA REBELDÍA',
       type: 'Feature-film',
       image: 'assets/BENDITAREBELDÍA.png',
-      link: 'https://example.com/elearning'
+      link: 'benditarebeldia'
     },
     {
       title: 'ENCANTO',

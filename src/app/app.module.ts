@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { NavComponent } from './nav/nav.component';
+import { BenditarebeldiaComponent } from './pages/benditarebeldia/benditarebeldia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectCardComponent,
-    NavComponent
+    NavComponent,
+    BenditarebeldiaComponent
   ],
   imports: [
     BrowserModule,
