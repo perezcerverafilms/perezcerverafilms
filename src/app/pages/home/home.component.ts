@@ -24,19 +24,19 @@ export class HomeComponent {
       title: 'CHARLIE',
       type: 'Short',
       image: 'assets/CHARLIE.png',
-      link: ''
+      link: 'charlie'
     },
     {
       title: 'THE FIRE ESCAPE',
       type: 'Short',
       image: 'assets/THEFIREESCAPE.png',
-      link: ''
+      link: 'thefireescape'
     },
     {
-      title: 'CÓMO CON: BANCOLOMBIA',
+      title: 'CÓMO CON - BANCOLOMBIA',
       type: 'Commercial work',
       image: 'assets/CHARLIE.png',
-      link: ''
+      link: 'comoconbancolombia'
     },
 
   ];

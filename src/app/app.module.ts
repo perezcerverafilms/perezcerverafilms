@@ -8,6 +8,9 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { NavComponent } from './nav/nav.component';
 import { BenditarebeldiaComponent } from './pages/benditarebeldia/benditarebeldia.component';
 import { EncantoComponent } from './pages/encanto/encanto.component';
+import { CharlieComponent } from './pages/charlie/charlie.component';
+import { ThefireescapeComponent } from './pages/thefireescape/thefireescape.component';
+import { ComoconbancolombiaComponent } from './pages/comoconbancolombia/comoconbancolombia.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { EncantoComponent } from './pages/encanto/encanto.component';
     ProjectCardComponent,
     NavComponent,
     BenditarebeldiaComponent,
-    EncantoComponent
+    EncantoComponent,
+    CharlieComponent,
+    ThefireescapeComponent,
+    ComoconbancolombiaComponent
   ],
   imports: [
     BrowserModule,
