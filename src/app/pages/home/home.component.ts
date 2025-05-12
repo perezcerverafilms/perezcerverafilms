@@ -35,7 +35,7 @@ export class HomeComponent {
     {
       title: 'CÓMO CON - BANCOLOMBIA',
       type: 'Commercial work',
-      image: 'assets/CHARLIE.png',
+      image: 'assets/COMOCON.png',
       link: 'comoconbancolombia'
     },
 
