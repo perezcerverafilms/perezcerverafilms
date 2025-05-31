@@ -17,7 +17,7 @@ export class HomeComponent {
     {
       title: 'ENCANTO',
       type: 'Feature-film',
-      image: 'assets/ENCANTO.png',
+      image: 'assets/ENCANTO.jpeg',
       link: 'encanto'
     },
     {
